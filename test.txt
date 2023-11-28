@@ -1,1 +1,4 @@
-<?php echo shell_exec("whoami");?>
+<?php
+$output = `ls -al`;
+echo "<pre>$output</pre>";
+?>
